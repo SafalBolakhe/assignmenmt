@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.herosection {
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.247)), url("reinhart-julian-WxM465oM4j4-unsplash.jpg");
+    background-blend-mode: darken;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.herosection>h1 {
+    font-size: 102px;
+    color: beige;
+}
+
+.herosection>h3 {
+    color: beige;
+    font-size: 48px;
+}
+
+.herosection>.button {
+    font-size: 18px;
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 80px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.herosection>.button:hover {
+    cursor: pointer;
+    background-color: beige;
+}
+
+.lighter-colored-banner {
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+}
+
+.darker-colored-banner {
+    color: azure;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(121, 100, 74);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer>div {
+    background-color: beige;
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+}
+
+a:link {
+    color: chocolate;
+}
+
+a:visited {
+    color: rgb(155, 101, 63);
+}
